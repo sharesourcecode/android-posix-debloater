@@ -27,7 +27,7 @@ Script minimalista e robusto para gerenciamento de pacotes (debloat) no Android.
 
 ## 🛠️ Como Usar
 
-### Usando no aShell You (ADB)
+### Usando no [aShell You][1] (ADB)
 Como o armazenamento interno é montado com restrição de execução, chame o interpretador explicitamente:
 
 ```sh
@@ -53,3 +53,5 @@ cat ~/storage/downloads/android-posix-debloater.sh | rish -c "sh -s -- on"
 ### ⚠️ Disclaimer (Aviso Legal)
 
   **Aviso:** Este script é uma ferramenta poderosa. Remover pacotes críticos do sistema (como SystemUI ou Frameworks da Samsung) pode causar loops de inicialização (bootloops). Use com cautela e sempre mantenha um backup dos seus dados. O uso deste script é de sua inteira responsabilidade.
+
+[1]: https://f-droid.org/pt_BR/packages/in.hridayan.ashell/
