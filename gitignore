@@ -1,0 +1,7 @@
+# Ignorar logs do aShell You ou redirecionamentos de saída
+*.txt
+!apps_removidos.txt
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+*.tmp
