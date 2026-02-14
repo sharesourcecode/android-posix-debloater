@@ -33,7 +33,8 @@ Como o armazenamento interno é montado com restrição de execução, chame o i
 ```sh
 # Para remover os apps da lista
 sh /storage/emulated/0/Download/android-posix-debloater.sh off
-
+```
+```sh
 # Para restaurar os apps da lista
 sh /storage/emulated/0/Download/android-posix-debloater.sh on
 ```
@@ -45,7 +46,8 @@ Utilize o `cat` para injetar o script no ambiente do Shizuku:
 ```sh
 # Para remover os apps da lista
 cat ~/storage/downloads/android-posix-debloater.sh | rish -c "sh -s -- off"
-
+```
+```sh
 # Para restaurar os apps da lista
 cat ~/storage/downloads/android-posix-debloater.sh | rish -c "sh -s -- on"
 ```
