@@ -41,7 +41,6 @@ com.samsung.android.stickercenter
 com.facebook.system
 com.google.android.gms.supervision
 com.samsung.android.app.updatecenter
-com.samsung.android.honeyboard
 com.samsung.android.scloud
 com.samsung.android.widget.pictureframe
 com.samsung.android.fast
