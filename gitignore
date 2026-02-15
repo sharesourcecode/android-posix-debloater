@@ -1,7 +1,39 @@
-# Ignorar logs do aShell You ou redirecionamentos de saída
+# --- Segurança e Privacidade (Arquivos Sensíveis) ---
+# Ignora exportações de gerenciadores de senhas e chaves
+*.csv
+*.pgp
+*.sec
+*.xpi
+Backup_codes.txt
+
+# Ignora documentos pessoais e extratos
+*.pdf
+*.crt
+*.ofx
+
+# Ignora arquivos de backup e firmwares
+*.bin
+*.zip
+*.sr0
+*.apk
+
+# --- Logs e Arquivos de Saída ---
+# Ignora logs do aShell You e outros textos temporários
 *.txt
+*.html
+*.data
 !apps_removidos.txt
 
-# Ignorar arquivos temporários do sistema
+# --- Arquivos de Configuração e Sistema ---
 .DS_Store
+.tistore
+.exmu-cfg1.data
+Conversations/
+Obta/
+autocrypt-setup-message
 *.tmp
+
+# --- Regra de Ouro ---
+# Garante que o script principal e a lista modelo sejam sempre incluídos
+!android-posix-debloater.sh
+!apps_removidos.txt
