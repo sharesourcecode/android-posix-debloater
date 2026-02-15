@@ -1,3 +1,6 @@
+com.samsung.android.mydevice
+com.samsung.android.smartmirroring
+com.samsung.android.service.stplatform
 com.google.android.youtube
 com.samsung.SMT.lang_pt_br_f00
 com.google.android.googlequicksearchbox
