@@ -1,3 +1,5 @@
+com.google.android.ondevicepersonalization.services
+com.samsung.android.rubin.app
 com.google.android.healthconnect.controller
 com.samsung.android.inputshare
 com.samsung.android.mydevice
