@@ -21,7 +21,7 @@ Script minimalista e robusto para gerenciamento de pacotes (debloat) no Android.
 1.  **Lista de Pacotes:** Crie um arquivo chamado `apps_removidos.txt` na pasta `Download` do seu Android.
 2.  **Acesso Shell:**
     * **[aShell You][1]** (via ADB Wireless)
-    * **Termux** (via [Shizuku/rish][2])
+    * **[Termux][3]** (via [Shizuku/rish][2])
 
 ---
 
@@ -39,9 +39,9 @@ sh /storage/emulated/0/Download/android-posix-debloater.sh off
 sh /storage/emulated/0/Download/android-posix-debloater.sh on
 ```
 
-### Usando no Termux (via [rish][2])
+### Usando no [Termux][3] (via [rish][2])
 
-Utilize o `cat` para injetar o script no ambiente do Shizuku:
+Utilize o `cat` para injetar o script no ambiente do [Shizuku][2]:
 
 ```sh
 # Para remover os apps da lista
@@ -62,3 +62,4 @@ cat ~/storage/downloads/android-posix-debloater.sh | rish -c "sh -s -- on"
 
 [1]: https://f-droid.org/pt_BR/packages/in.hridayan.ashell/
 [2]: https://apt.izzysoft.de/fdroid/index/apk/moe.shizuku.privileged.api
+[3]: https://f-droid.org/pt_BR/packages/com.termux/
