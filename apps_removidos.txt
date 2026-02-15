@@ -1,3 +1,5 @@
+com.google.android.healthconnect.controller
+com.samsung.android.inputshare
 com.samsung.android.mydevice
 com.samsung.android.smartmirroring
 com.samsung.android.service.stplatform
