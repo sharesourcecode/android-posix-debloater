@@ -17,7 +17,6 @@ com.google.android.adservices.api
 com.google.android.apps.accessibility.voiceaccess
 com.google.android.apps.bard
 com.google.android.apps.maps
-com.google.android.apps.messaging
 com.google.android.apps.tachyon
 com.google.android.as
 com.google.android.as.oss
