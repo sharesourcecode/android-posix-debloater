@@ -16,7 +16,6 @@ com.google.android.apps.bard
 com.google.android.apps.maps
 com.google.android.apps.messaging
 com.google.android.apps.tachyon
-com.google.android.as
 com.google.android.as.oss
 com.google.android.federatedcompute
 com.google.android.feedback
@@ -26,7 +25,6 @@ com.google.android.gms.supervision
 com.google.android.googlequicksearchbox
 com.google.android.healthconnect.controller
 com.google.android.ondevicepersonalization.services
-com.google.android.onetimeinitializer
 com.google.android.overlay.modules.healthfitness.forframework
 com.google.android.printservice.recommendation
 com.google.android.projection.gearhead
